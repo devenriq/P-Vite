@@ -4,6 +4,8 @@ import imageStyles from "./image.module.css";
 import img from "./foto-Diana.png";
 import data from "./data.json";
 
+const modules = import.meta.glob();
+
 document.querySelector("#app").innerHTML = `
   <div>
     <h1>Hello Enrique. Nice to see you again!</h1>
